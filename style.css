@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    font-size: 23px;
+    text-transform: uppercase;
+    font-weight: 0;
+    letter-spacing: 1px;
+    color: #5d1859;
+}
+nav div{
+    width: 10%;
+    padding-left: 10px;
+}
+nav ul{
+    background: transparent;
+    height: 60px;
+    display: flex;
+    width: 40%;
+    position: relative;
+    float: right;
+    justify-content: space-evenly;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    padding: 0 10px;
+    border-right: solid rgb(210, 216, 231) 3px;
+}
+nav ul li a:hover{
+    color: rgb(138, 9, 132);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+nav ul li:nth-last-child(1){
+    border-right: transparent;
+}
+nav ul li a{
+    color: #5d1859;
+    text-decoration: none;
+}
+#main {
+    background: rgba(197, 136, 197, 0.76);
+}
+nav {
+    background: url("slika6.jpg") repeat center center/cover;
+    margin: 0;
+    padding: 0;
+    border-bottom: solid white;
+    width: 100%;
+    box-sizing: border-box;
+}
+#a {
+    margin: 0;
+    width: 100%;
+    background: rgba(197, 136, 197, 0.76);
+    box-sizing: border-box;
+}
+#b{
+    background: rgba(197, 136, 197, 0.76);
+    background: white;
+}
+.text {
+    flex-direction: column;
+    padding-top: 50px;
+    display: flex;
+    color: #410a3c;
+    font-size: 20px;
+    padding-left: 22%;
+    height: 400px;
+}
+#a2{
+    height: 500px;
+    background: rgba(194, 147, 194, 0.38);
+}
+#ab{
+    background: url("slika6.jpg");
+    background-size: cover;
+}
+
+#ps{
+    letter-spacing: 0.1em;
+    font-weight: 700;
+    text-align: center;
+    font-size: 65px;
+    color: #230549;
+    font-family: 'Amatic SC', sans-serif;
+}
+h2{
+    color: #fff;
+    font-weight: 1000;
+    text-shadow: 1px 4px rgb(115, 72, 112);
+    font-size: 36px;
+    letter-spacing: 1px;
+}
+.text p{
+    margin-top: 80px;
+    border-left: groove #092773 12px;
+    color: #6646ce;
+    padding-left: 12px;
+    font-size: 27px;
+}
+#zamene{
+    background: rgba(185, 80, 229, 0.39);
+    padding-top: 50px;
+}
+.content{
+    width: 80%;
+    font-size: 22px;
+    display: flex;
+    align-items: flex-start;
+}
+.content .text {
+    width: 50%;
+    padding-right: 20px;
+}
+.content .img {
+    width: 50%;
+}
+.img img {
+    width: 100%;
+    height: auto;
+}
+nav{
+    position: fixed;
+}
+#e{
+    padding-top: 60px;
+}
+#me{
+    margin-left: 80px;
+    border: solid white 10px;
+    border-radius: 12px;
+}
+.img2{
+    height: 140px;
+    border-radius: 5px;
+    border: solid #eed3ee 8px;
+}
+
+.img2:nth-child(3){
+    margin-top: -20px;
+}
+.img2:nth-child(2){
+    margin-top: -20px;
+    margin-left: -20px;
+}
+.img2:nth-child(4){
+    margin-top: -10px;
+    margin-left: -20px;
+}
+h3{
+    width: 400px;
+    margin-top: 70px;
+    margin-bottom: 40px;
+}
+#patuvanje{
+    background: rgba(185, 80, 229, 0.39);
+    display: flex;
+    padding-top: 60px;
+}
+footer {
+    background: url("slika6.jpg") repeat center center/cover;
+
+}
+#kontakt {
+    background: rgba(49, 11, 46, 0.81);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 10px;
+}
+footer h3 {
+    color: white;
+    align-self: flex-start;
+    padding-top: 10px;
+    font-size: 50px;
+}
+.headers{
+    margin-left: 17%;
+}
+.icon {
+    height: 80px;
+}
+.n {
+    padding: 10px;
+    font-weight: bolder;
+    color: white;
+    text-align: center;
+}
+#i {
+    display: flex;
+    justify-content: center;
+}
+#i a {
+    padding-right: 20px;
+}
+#cs {
+    text-align: center;
+}
